@@ -9,7 +9,7 @@ Custom scripts for specific use cases and house-keeping tasks are written in:
 
 - Python
 - Kotlin (only used within Gradle tasks)
-- Groovy (will be removed or moved to Gradle/kotlin)
+- Groovy (will be removed or moved to Gradle/Kotlin)
 
 nep.work frontends, which are recent to nep.work use:
 
