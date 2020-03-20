@@ -26,7 +26,7 @@ nep.work frontends use:
 - RxJS
 - SASS
 
-The frontend build process, which is independent of the core nep.work sbt+gradle based build, generates web, Android, iOS and desktop applications (via Electron) in case of Ionic and Android and iOS applications in case of Nativescript.
+The frontend build process, which is independent of the core nep.work sbt+gradle based build process, generates web, Android, iOS and desktop applications (via Electron) in case of Ionic. At the time of writing, Nativescript generates Android and iOS applications only.
 
 # Mockups and PoC APIs
 
@@ -37,10 +37,11 @@ Proof-of-concept APIs and RAD-prototypes are made using
 - Blockstack to skip setting up custom blockchain
 - Balsamiq for Wireframing
 
+_______________________________________________________________________________________________________________________
 
-# Core Frameworks
+# nep.work core Frameworks
 
-nep.work core is being ported away from it's legacy codebase written entirely in Spring to Play 2+. It uses:
+nep.work core's main features, adapted from cosys kernel, is being ported away from it's legacy codebase written entirely in Spring to Play 2+. It uses:
 
 - Play 2+, in-built Akka and sbt support
 - Spring Data JPA & Ignite
@@ -48,7 +49,7 @@ nep.work core is being ported away from it's legacy codebase written entirely in
 - ElasticSearch and Logstash
 - Spring Data Redis (read only, only used in specific modules serving mostly static content)
 
-nep.work additional features that are being separated from the core into various microservices use:
+nep.work core's additional features that are being separated from the core into various microservices use:
 
 - Quarkus
 - Micronaut
