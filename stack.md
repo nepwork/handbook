@@ -51,8 +51,8 @@ nep.work core's main features, adapted from cosys kernel, is being ported away f
 
 nep.work core's additional features that are being separated from the core into various microservices use:
 
-- Quarkus
-- Micronaut
+- Quarkus (Netty, Vert.x, Kafka)
+- Micronaut (Netty, Kafka)
 - Apache Camel
 
 ## Data & Persistence
