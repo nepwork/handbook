@@ -34,8 +34,8 @@ Proof-of-concept APIs and RAD-prototypes are made using
 - Blade
 - OpenAPI 3+ (used for code generation in prototypes and for documentation in matured projects)
 - Vue/HTML5/CSS3 (Multipage Setup using dev CDNs)
-- Blockstack to skip setting up custom blockchain
-- Balsamiq for Wireframing
+- Blockstack (to skip setting up custom blockchain)
+- Adobe XD/Balsamiq (for designing and wireframing)
 
 _______________________________________________________________________________________________________________________
 
@@ -73,5 +73,5 @@ nep.work's data handling & persistence is comprised of an in-memory data managem
 
 ## Blockchain
 
-- Multichain (core)
-- OpenChain or Hyperledger Fabric (optional, support for enterprise-grade specific multi-centered rules and control policies)
+- Multichain (core, fully decentralized with basic multi-centralization support)
+- OpenChain/Hyperledger Fabric (optional, adds enterprise support, multi-centered authorities and control policies)
