@@ -21,7 +21,7 @@ nep.work frontends, which are recent to nep.work use:
 nep.work frontends use:
 
 - Ionic
-- Nativescript (IoT and resource intensive applications only)
+- NativeScript (IoT and resource intensive applications only)
 - Angular/Vue
 - RxJS
 - SASS
@@ -31,9 +31,9 @@ The frontend build process, which is independent of the core nep.work sbt+gradle
 ## Mockups and PoC APIs
 
 Proof-of-concept APIs and RAD-prototypes are made using
-- Blade
+- Blade (possibly FastAPI/Flask too in the future)
 - OpenAPI 3+ (used for code generation in prototypes and for documentation in matured projects)
-- Vue/HTML5/CSS3 (Multipage Setup using dev CDNs)
+- Vue/HTML5/CSS3 (Multipage setup using dev CDNs)
 - Blockstack (to skip setting up custom blockchain)
 - Adobe XD/Balsamiq (for designing and wireframing)
 
