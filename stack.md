@@ -1,4 +1,4 @@
-# Languages
+## Languages
 
 nep.work's exisitng codebase mainly uses:
 
@@ -16,7 +16,7 @@ nep.work frontends, which are recent to nep.work use:
 - Typescript 3+
 - HTML5/CSS3
 
-# Frontend stack
+## Frontend stack
 
 nep.work frontends use:
 
@@ -28,7 +28,7 @@ nep.work frontends use:
 
 The frontend build process, which is independent of the core nep.work sbt+gradle based build process, generates web, Android, iOS and desktop applications (via Electron) in case of Ionic. At the time of writing, Nativescript generates Android and iOS applications only.
 
-# Mockups and PoC APIs
+## Mockups and PoC APIs
 
 Proof-of-concept APIs and RAD-prototypes are made using
 - Blade
@@ -39,7 +39,7 @@ Proof-of-concept APIs and RAD-prototypes are made using
 
 _______________________________________________________________________________________________________________________
 
-# nep.work core Frameworks
+# nep.work core technologies
 
 nep.work core's main features, adapted from cosys kernel, is being ported away from it's legacy codebase written entirely in Spring to Play 2+. It uses:
 
@@ -55,23 +55,32 @@ nep.work core's additional features that are being separated from the core into 
 - Micronaut
 - Apache Camel
 
-# Data & Persistence
+## Data & Persistence
 
 nep.work's data handling & persistence is comprised of an in-memory data management layer, a traditional database layer and a pluggable blockchain layer. 
 
-## In-Memory Layer
+### In-Memory Layer
 
 - Apache Ignite
 - Redis
 
-## Databases
+### Databases
 
 - PostgreSQL
 - MongoDB (swappable with Mongo-compliant document DBs)
 - Druid
 - HypergraphDB
 
-## Blockchain
+### Blockchain
 
 - Multichain (core, fully decentralized with basic multi-centralization support)
 - OpenChain/Hyperledger Fabric (optional, adds enterprise support, multi-centered authorities and control policies)
+
+# AI & ML
+
+nep.work currently does not have any support for AI/ML-specific features and APIs. In the future we will most likely be using the relevant (experimental) scripts and algorithms from cosys written using:
+
+- Apache Spark MLib
+- Grakn.AI
+- Python (SciKit, TensorFlow, Keras)
+- Julia (Flux, Spark.jl, SciKitLearn.jl, MLBase.jl, TensorFlow.jl)
