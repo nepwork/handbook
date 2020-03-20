@@ -84,3 +84,8 @@ nep.work currently does not have any support for AI/ML-specific features and API
 - Grakn.AI
 - Python (SciKit, TensorFlow, Keras)
 - Julia (Flux, Spark.jl, SciKitLearn.jl, MLBase.jl, TensorFlow.jl)
+
+______________________________________________________________________________________________________________________
+
+N.B. We use GraalVM for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Groovy, Kotlin, Clojure, and LLVM-based languages such as C and C++.
+______________________________________________________________________________________________________________________
