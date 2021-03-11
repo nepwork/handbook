@@ -1,0 +1,9 @@
+[submodule "domains"]
+	path = domains
+	url = git@github.com:nepwork/domains.git
+[submodule "specs"]
+	path = specs
+	url = git@github.com:CUREDIT/specs.git
+[submodule "blog"]
+	path = blog
+	url = git@github.com:risavkarna/blog.git
