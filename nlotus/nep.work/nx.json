@@ -16,9 +16,17 @@
   "npmScope": "nep.work",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "NzdkNjljYjAtMDE0Mi00MjRhLWEzMzUtNTgwYTA5YTVjNmM4fHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
@@ -28,7 +36,9 @@
     },
     "nglotics-e2e": {
       "tags": [],
-      "implicitDependencies": ["nglotics"]
+      "implicitDependencies": [
+        "nglotics"
+      ]
     },
     "api": {
       "tags": []
